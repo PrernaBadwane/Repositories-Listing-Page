@@ -1,0 +1,63 @@
+.welcomepage{
+    height: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background: rgb(2,0,36);
+    background: linear-gradient(153deg, rgba(2,0,36,0.756827731092437) 0%, rgba(9,121,95,0.8716736694677871) 36%, rgba(0,212,255,0.6783963585434174) 100%);
+}
+.img-div{
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.img{
+    height: 400px ;
+       
+ }
+.form-div{
+    height: 100%;
+   margin-top: 10%;
+ 
+}
+.git-name{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    font-weight: 700;
+    color: black;
+}
+.webpage-name{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.from-area{
+    padding-top:5% ; 
+    display: block;
+    padding-left: 2% ;
+    justify-content: center;
+    margin-right: 5%;
+    margin-left: 5%;
+
+    
+}
+.input-fields{
+    display: flex;
+    justify-content: center;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }

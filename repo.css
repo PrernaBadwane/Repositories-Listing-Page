@@ -1,0 +1,111 @@
+.repopage{
+    height: 100%;
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+.userdata{
+    height: 300px;
+    padding: 5% 10% ;
+   
+}
+.username{
+    font-size: larger;
+    font-weight: 700;
+}
+.userprofile{
+    display: flex;
+    justify-content: center;
+}
+.userimg {
+    height: 200px;
+    border: 2px solid transparent; 
+    border-radius: 200px; 
+   }
+.userinfo{
+    padding: 2%;
+}
+.repoform{
+    width: 70%;
+    margin: 2% 16%
+}
+.repodiscription{
+    font-size: small;
+    font-style: italic;
+    font-weight: 400;
+   
+}
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+.repos{
+    margin-top:5%;
+}
+#repocard{
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+}
+.repocard{
+    margin: 10px;
+    background:rgba(235, 232, 232, 0.468);
+    height:auto;
+    width: 45%;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+}
+.topic{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(153deg, rgba(9,121,95,0.7) 36%, rgba(0,212,255,0.5) 100%);
+    color: black; 
+    padding: 5px; 
+    margin: 2px; 
+    display: inline-block;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.reponame{
+    color: rgba(0, 139, 167, 0.914);
+    font-weight: 500;
+    font-size: large;
+}
+.handalepagoination{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.pagehandlebutton {
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 500;
+   
+
+}
+.numbering{
+    font-size: large;
+    font-weight: 500;
+    margin-top: 15px;
+}
+@media (max-width: 768px) {
+    .userprofile {
+        text-align: center;
+    }
+    .userinfo {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) { 
+      .repocard{
+        width: 90%;
+      }
+      .repos{
+        margin-top:20%;
+    }
+}
